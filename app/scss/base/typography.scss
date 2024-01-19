@@ -1,0 +1,22 @@
+@use '../util' as *;
+
+/* prettier-ignore */
+h1, h2 {
+font-style: normal;
+line-height: 150%;
+margin: 0;
+}
+
+// Typescale = 1.250 - Major Third
+// https://typescale.com/
+h1 {
+  font-weight: 500;
+  font-size: var(--fs-large);
+  margin-bottom: rem(4);
+}
+h2 {
+  font-weight: 700;
+  font-size: var(--fs-reg);
+  color: var(--clr-primary);
+  margin-bottom: rem(24);
+}

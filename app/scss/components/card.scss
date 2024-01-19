@@ -60,6 +60,7 @@
 
   @include breakpoint(medium) {
     max-width: rem(384);
+    margin-top: rem(174);
     padding: rem(40);
   }
 }
